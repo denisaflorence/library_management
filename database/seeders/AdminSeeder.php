@@ -21,6 +21,8 @@ class AdminSeeder extends Seeder
                 'email'=>'admin@gmail.com',
                 'password'=>bcrypt('123'),
                 'role_id'=>'1',
+                'telp'=>'08627354',
+                'alamat'=>'Jl. Tunjungan',
                 'created_at'=>\Carbon\Carbon::now('Asia/Jakarta')
             ],
         ]);

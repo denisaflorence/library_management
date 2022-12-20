@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Http\Controllers\BukuController;
 use App\Models\Buku;
 
+
 class HomeController extends Controller
 {
     //
@@ -16,15 +17,9 @@ class HomeController extends Controller
         
     }
     public function index(){
-        return view('admin.home');
+        return view('bukuhome');
     }
     public function user(){
-        return view('user.home');
+        return view('homeuser');
     }
-    // public function buku(){
-    //     $data_buku = Buku::all();
-    //     return view('user.home', compact('data_buku'));
-    //     // $users = User::get();
-    //     // return view('user.home',compact('users'));
-    // }
 }
